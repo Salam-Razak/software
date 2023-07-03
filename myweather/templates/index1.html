@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Monitoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: linear-gradient(to bottom, #2980B9, #6DD5FA);
+      margin: 0;
+      padding: 20px;
+      overflow: hidden;
+    }
+    h1 {
+      color: #fff;
+      text-align: center;
+    }
+    .weather-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      text-align: center;
+    }
+    .weather-container h2 {
+      color: #333;
+    }
+    .weather-data {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      margin-top: 15px;
+    }
+    .weather-data p {
+      margin: 0;
+      color: #555;
+      position: relative;
+    }
+    .weather-data .label {
+      font-weight: bold;
+      color: #333;
+    }
+    .time-date-container {
+      margin-top: 20px;
+    }
+    .time-date-container p {
+      margin: 0;
+      color: #555;
+    }
+    .cloud {
+      position: absolute;
+      top: 80px;
+      left: -100px;
+      animation: cloudMove 20s linear infinite;
+    }
+    .sun {
+      position: absolute;
+      top: 7px;
+      right: 40px;
+      animation: sunRotate 20s linear infinite;
+    }
+    @keyframes cloudMove {
+      0% {
+        transform: translateX(-100px);
+      }
+      100% {
+        transform: translateX(1200px);
+      }
+    }
+    @keyframes sunRotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Weather Monitoring</h1>
+  <div class="weather-container">
+    <h2>Current Weather</h2>
+    <div class="weather-data">
+      <p><span class="label">Temperature:</span> <span id="temperature"></span>&deg;C</p>
+      <p><span class="label">Humidity:</span> <span id="humidity"></span>%</p>
+    </div>
+    <div class="time-date-container">
+      <p><span class="label">Time:</span> <span id="time"></span></p>
+      <p><span class="label">Date:</span> <span id="date"></span></p>
+    </div>
+  </div>
+  <div class="cloud">
+    <img src="https://i.pinimg.com/originals/60/a8/2c/60a82c6cf7fda046b291e6b2c78ea531.png" alt="Cloud" width="200" height="70">
+  </div>
+  <div class="sun">
+    <img src="https://webstockreview.net/images/sunny-clipart-sunny-weather-16.png" alt="Sun" width="100" height="100">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      setInterval(function() {
+        $.ajax({
+          url: "http://192.168.101.75/project_weather/data_sensor.php",
+          type: "GET",
+          dataType: "json",
+          success: function(response) {
+            if (response.Temperature !== "N/A") {
+              $("#temperature").text(response.Temperature);
+            }
+            if (response.Humidity !== "N/A") {
+              $("#humidity").text(response.Humidity);
+            }
+    // Get the current time and date
+    var currentTime = new Date();
+    var timeString = currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    var dateString = currentTime.toLocaleDateString();
+
+    // Update the HTML elements with the fetched data
+    document.getElementById("time").textContent = timeString;
+    document.getElementById("date").textContent = dateString;
+
+          },
+          error: function(xhr, status, error) {
+            console.log("Error: " + error);
+          }
+
+        });
+      }, 3000); // Update every 3 seconds
+    });
+
+
+
+  </script>
+</body>
+</html>
