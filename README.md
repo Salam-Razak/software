@@ -11,7 +11,7 @@ Members:
 
 ## Table of Contents
 
-[STAGE 2](#10-stage-2)
+ [STAGE 2 : Proposal](#stage-2)
 
 + [1.0 Problem Statement](#10-problem-statement)
 + [2.0 System Architecture](#20-system-architecture)
@@ -19,15 +19,15 @@ Members:
 + [4.0 Cloud Platform](#40-cloud-platform)
 + [5.0 Dashboard](#50-dashboard)
 
-[STAGE 3 : Send Realtime Data to Server](#stage-3)
+ [STAGE 3 : Send Realtime Data to Server](#stage-3)
 
-[STAGE 4 : Send Sensor Data to Database](#stage-4)
+ [STAGE 4 : Send Sensor Data to Database](#stage-4)
 
-[STAGE 5 : Update Live Data in Grafana Dashboard](#stage-5)
+ [STAGE 5 : Update Live Data in Grafana Dashboard](#stage-5)
 ***
 <br>
 
-## STAGE 2 
+## STAGE 2 : Proposal
 
 ## 1.0 Problem Statement
 
