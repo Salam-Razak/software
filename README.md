@@ -19,7 +19,7 @@ Members:
 + [4.0 Cloud Platform](#40-cloud-platform)
 + [5.0 Dashboard](#50-dashboard)
 
- [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-server)
+ [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-to-server)
 
  [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
 
@@ -74,7 +74,7 @@ Figure 5.1: Sketching of dashboard appearance
 
 <br>
 
-## STAGE 3 : Send Realtime Data to Server
+## STAGE 3: Send Realtime Data to Server
 
 The ESP8266 device transmits temperature and humidity data from the DHT11 sensor to the Django web server using HTTP POST requests. The Django web application then updates the temperature and humidity readings dynamically, with a delay of approximately 5 seconds, without requiring the user to manually refresh the page. This ensures that the displayed status of temperature and humidity remains up-to-date without any user intervention.
 
@@ -84,7 +84,7 @@ To create visually appealing representations of weather data, it is necessary to
 
 <br>
 
-## STAGE 4 : Send Sensor Data to Database
+## STAGE 4: Send Sensor Data to Database
 
 The ESP8266 device utilizes HTTP POST requests to transmit temperature and humidity data from the DHT11 sensor to a Django web server. The Django server has a designated URL that accepts and parses these POST requests, subsequently storing the received data into a connected MySQL database.
 
@@ -98,7 +98,7 @@ To utilize this PHP file for receiving data from an ESP8266 device via the HTTP 
 
 <br>
 
-## STAGE 5 : Update Live Data in Grafana Dashboard
+## STAGE 5: Update Live Data in Grafana Dashboard
 
 Grafana is an exceptional data visualization tool known for its robust features and user-friendly interface. It empowers users to create visually captivating and informative dashboards and graphs effortlessly. By leveraging Grafana, the process of analyzing and monitoring data becomes simplified, as it offers a wide range of customizable and interactive visual representations. Whether you need to track temperature and humidity trends or any other metrics, Grafana provides a seamless experience for gaining valuable insights and making data-driven decisions.
 
