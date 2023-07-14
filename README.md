@@ -26,7 +26,6 @@ Members:
 [STAGE 5 : Dashboard Grafana](#stage-5)
 ***
 <br>
-
 ## STAGE 2 : Proposal
 
 ## 1.0 Problem Statement
@@ -71,9 +70,7 @@ Link to How to deploy Flask app to PythonAnywhere [here](https://youtu.be/yZY-iz
 ![dashboard](https://github.com/Asy-Syakirin/stage2/assets/129646759/ff1203ab-e28f-46bd-b701-fbdd6a86baac)
 
 Figure 5.1: Sketching of dashboard appearance
-
-<br>
 ***
-
+<br>
 ## STAGE 3 : Send Realtime Data to Server
 
