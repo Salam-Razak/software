@@ -11,7 +11,7 @@ Members:
 
 ## Table of Contents
 
-1. [Stage 2](#stage-2)
+1. [STAGE 2](#stage-2)
 
 [1.0 Problem Statement](#10-problem-statement)
 
@@ -25,7 +25,7 @@ Members:
 
 <br>
 
-## Stage 2
+## STAGE 2
 ***
 ## 1.0 Problem Statement
 
