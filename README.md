@@ -12,6 +12,8 @@ Members:
 ## Table of Contents
 
 [1.0 Problem Statement](#10-problem-statement)
+
+      [6.0 Statement](#60-statement)
       
 [2.0 System Architecture](#20-system-architecture)
 
