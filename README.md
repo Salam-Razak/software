@@ -24,7 +24,7 @@ Members:
  [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
 
  [STAGE 5: Update Live Data in Grafana Dashboard](#stage-5-update-live-data-in-grafana-dashboard)
-***
+ 
 <br>
 
 ## STAGE 2: Proposal
