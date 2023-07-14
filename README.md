@@ -19,10 +19,17 @@ Members:
 + [4.0 Cloud Platform](#40-cloud-platform)
 + [5.0 Dashboard](#50-dashboard)
 
+[STAGE 3 : Send Realtime Data to Server](#stage-3)
+
+[STAGE 4 : Send Sensor Data to Database](#stage-4)
+
+[STAGE 5 : Dashboard Grafana](#stage-5)
+
 <br>
+***
 
 ## STAGE 2 : Proposal
-***
+
 ## 1.0 Problem Statement
 
 The current weather reporting systems are either limited in their coverage or provide delayed information, which makes it difficult for individuals to make informed decisions regarding outdoor activities, crop management, transportation, and emergency response. The system should be able to collect and analyze weather data from multiple sensors and sources, and present it in an easily understandable format. 
@@ -65,4 +72,9 @@ Link to How to deploy Flask app to PythonAnywhere [here](https://youtu.be/yZY-iz
 ![dashboard](https://github.com/Asy-Syakirin/stage2/assets/129646759/ff1203ab-e28f-46bd-b701-fbdd6a86baac)
 
 Figure 5.1: Sketching of dashboard appearance
+
+<br>
+***
+
+## STAGE 3 : Send Realtime Data to Server
 
