@@ -19,7 +19,7 @@ Members:
 + [4.0 Cloud Platform](#40-cloud-platform)
 + [5.0 Dashboard](#50-dashboard)
 
- [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-to-server)
+ [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-server)
 
  [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
 
