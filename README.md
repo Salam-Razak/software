@@ -19,7 +19,7 @@ Members:
 + [4.0 Cloud Platform](#40-cloud-platform)
 + [5.0 Dashboard](#50-dashboard)
 
-[STAGE 3 : Send Realtime Data to Server](#60-stage-3)
+[STAGE 3 : Send Realtime Data to Server](#stage-3)
 
 [STAGE 4 : Send Sensor Data to Database](#stage-4)
 
@@ -71,7 +71,7 @@ Link to How to deploy Flask app to PythonAnywhere [here](https://youtu.be/yZY-iz
 ![dashboard](https://github.com/Asy-Syakirin/stage2/assets/129646759/ff1203ab-e28f-46bd-b701-fbdd6a86baac)
 
 Figure 5.1: Sketching of dashboard appearance
-***
+
 <br>
 
 ## STAGE 3 : Send Realtime Data to Server
@@ -81,7 +81,7 @@ The ESP8266 device transmits temperature and humidity data from the DHT11 sensor
 To create visually appealing representations of weather data, it is necessary to develop HTML templates that effectively display temperature and humidity trends in a user-friendly manner. Django, a web framework, offers a robust templating engine that facilitates the creation of reusable HTML templates featuring dynamic content. These templates can incorporate Python code to generate weather data and pass it to the HTML for presentation. By leveraging Django's built-in support for forms and models, interactive dashboards and panels can be developed, enabling users to filter and manipulate the weather data as desired.
 
 ![](dashboard.png)
-***
+
 <br>
 
 ## STAGE 4 : Send Sensor Data to Database
@@ -95,7 +95,7 @@ Next, the code constructs an SQL INSERT statement using the retrieved temperatur
 To utilize this PHP file for receiving data from an ESP8266 device via the HTTP protocol, the ESP8266 needs to send an HTTP POST request to the URL of this PHP file. The request should include the temperature and humidity values as key-value pairs within the request body. The ESP8266 can utilize the HTTPClient library to make the HTTP request and include the temperature and humidity values in the request body. Upon receiving the data, the PHP file inserts it into the MySQL database. Consequently, the Django web application dynamically updates the user interface by retrieving the necessary data from the database and processing it within the application to be presented in the server.
 
 ![](database.png)
-***
+
 <br>
 
 ## STAGE 5 : Update Live Data in Grafana Dashboard
@@ -107,5 +107,5 @@ One of the key advantages of Grafana is its flexibility and intuitiveness. It al
 In summary, Grafana stands out as a powerful and user-friendly data visualization tool that simplifies the process of analyzing and monitoring data. Its customizable and interactive nature empowers users to create visually captivating dashboards and graphs, facilitating valuable insights and informed decision-making. By utilizing Grafana, individuals and organizations can effectively analyze and present data in a visually appealing and easily understandable format, enhancing their overall data visualization capabilities.
 
 ![](grafana.png)
-***
+
 <br>
