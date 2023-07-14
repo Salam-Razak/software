@@ -27,6 +27,16 @@ Members:
 ***
 <br>
 
+- [Section 1](#section-1)
+- [Section 2](#section-2)
+
+## Section 1
+Content of section 1 goes here.
+
+## Section 2
+Content of section 2 goes here.
+
+
 ## STAGE 2 : Proposal
 
 ## 1.0 Problem Statement
