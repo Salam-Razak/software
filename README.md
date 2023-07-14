@@ -13,7 +13,7 @@ Members:
 
 1. [STAGE 2 : Proposal](#stage-2)
 
-+ i.[1.0 Problem Statement](#10-problem-statement)
+i. [1.0 Problem Statement](#10-problem-statement)
 
 + [2.0 System Architecture](#20-system-architecture)
 
