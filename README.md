@@ -11,7 +11,7 @@ Members:
 
 ## Table of Contents
 
- [STAGE 2 Proposal](#stage-2-proposal)
+ [STAGE 2: Proposal](#stage-2-proposal)
 
 + [1.0 Problem Statement](#10-problem-statement)
 + [2.0 System Architecture](#20-system-architecture)
@@ -27,17 +27,7 @@ Members:
 ***
 <br>
 
-- [Section 1](#section-1)
-- [Section 2](#section-2)
-
-## Section 1
-Content of section 1 goes here.
-
-## Section 2
-Content of section 2 goes here.
-
-
-## STAGE 2 Proposal
+## STAGE 2: Proposal
 
 ## 1.0 Problem Statement
 
