@@ -25,6 +25,8 @@ Members:
 
 <br>
 
+## Stage 2
+***
 ## 1.0 Problem Statement
 
 The current weather reporting systems are either limited in their coverage or provide delayed information, which makes it difficult for individuals to make informed decisions regarding outdoor activities, crop management, transportation, and emergency response. The system should be able to collect and analyze weather data from multiple sensors and sources, and present it in an easily understandable format. 
