@@ -13,15 +13,15 @@ Members:
 
 1. [STAGE 2](#stage-2)
 
-[1.0 Problem Statement](#10-problem-statement)
++ [1.0 Problem Statement](#10-problem-statement)
 
-[2.0 System Architecture](#20-system-architecture)
++ [2.0 System Architecture](#20-system-architecture)
 
-[3.0 Sensors](#30-sensors)
++ [3.0 Sensors](#30-sensors)
 
-[4.0 Cloud Platform](#40-cloud-platform)
++ [4.0 Cloud Platform](#40-cloud-platform)
 
-[5.0 Dashboard](#50-dashboard)
++ [5.0 Dashboard](#50-dashboard)
 
 <br>
 
