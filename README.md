@@ -73,7 +73,7 @@ Figure 3.1: Wiring connections
 
 ## 4.0 Cloud Platform
 
-Link to How to deploy Django app to PythonAnywhere [here](https://youtu.be/yZY-izd_qI4).
+Link to How to deploy Flask app to PythonAnywhere [here](https://youtu.be/yZY-izd_qI4).
 
 <br>
 
