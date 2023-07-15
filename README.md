@@ -82,6 +82,7 @@ To create visually appealing representations of weather data, it is necessary to
 
 ![](dashboard.png)
 
+[Demo video for Stage 3](https://youtu.be/ZwxG8IxD1Hw)
 <br>
 
 ## STAGE 4: Send Sensor Data to Database
