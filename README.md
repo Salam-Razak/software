@@ -105,6 +105,8 @@ The provided PHP code establishes a connection to a MySQL database using the mys
 
 Next, the code constructs an SQL INSERT statement using the retrieved temperature and humidity values, and inserts them into the "dht11" table of the database using the mysqli_query() function. If the query is successful, the code outputs the message "New record created successfully". However, if an error occurs, it outputs an error message along with the SQL query and the error message returned by mysqli_error().
 
+![](update.png)
+
 To utilize this PHP file for receiving data from an ESP8266 device via the HTTP protocol, the ESP8266 needs to send an HTTP POST request to the URL of this PHP file. The request should include the temperature and humidity values as key-value pairs within the request body. The ESP8266 can utilize the HTTPClient library to make the HTTP request and include the temperature and humidity values in the request body. Upon receiving the data, the PHP file inserts it into the MySQL database. Consequently, the Django web application dynamically updates the user interface by retrieving the necessary data from the database and processing it within the application to be presented in the server.
 
 [Demo video for Stage 4](https://youtu.be/YAVZvHQAA3Q)
