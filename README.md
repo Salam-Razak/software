@@ -69,7 +69,7 @@ Link to How to deploy Django app to PythonAnywhere [here](https://youtu.be/yZY-i
 
 ## 5.0 Dashboard
 
-![dashboard](https://github.com/Asy-Syakirin/stage2/assets/129646759/ff1203ab-e28f-46bd-b701-fbdd6a86baac)
+![](sketching.png)
 
 Figure 5.1: Sketching of dashboard appearance
 
