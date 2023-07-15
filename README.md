@@ -11,6 +11,8 @@ Members:
 
 ## Table of Contents
 
+ [STAGE 1: Foundations](#stage-1-foundations)
+
  [STAGE 2: Proposal](#stage-2-proposal)
 
 + [1.0 Problem Statement](#10-problem-statement)
@@ -27,6 +29,14 @@ Members:
 
  [CONCLUSION](#conclusion)
  
+<br>
+
+## STAGE 1: Foundations
+
+1.2 [Collaborating on Github Account](https://youtu.be/s4JhGpIjmW8)
+
+1.3 [Local Python-based Web Server](https://youtu.be/-V4pbMBlVnU)
+
 <br>
 
 ## STAGE 2: Proposal
