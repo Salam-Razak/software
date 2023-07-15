@@ -21,9 +21,9 @@ Members:
   + [4.0 Cloud Platform](#40-cloud-platform)
   + [5.0 Dashboard](#50-dashboard)
 
-3. [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-to-server)
+3. [STAGE 3: Send Real Time Data to Django Server](#stage-3-send-real-time-data-to-django-server)
 
-4. [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
+4. [STAGE 4: Send Sensor Data to MySQL Database](#stage-4-send-sensor-data-to-mysql-database)
 
 5. [STAGE 5: Update Live Data in Grafana Dashboard](#stage-5-update-live-data-in-grafana-dashboard)
 
@@ -85,7 +85,7 @@ Figure 5.1: Sketching of dashboard appearance
 
 <br>
 
-## STAGE 3: Send Realtime Data to Server
+## STAGE 3: Send Real Time Data to Django Server
 
 The ESP8266 device transmits temperature and humidity data from the DHT11 sensor to the Django web server using HTTP POST requests. The Django web application then updates the temperature and humidity readings dynamically, with a delay of approximately 5 seconds, without requiring the user to manually refresh the page. This ensures that the displayed status of temperature and humidity remains up-to-date without any user intervention.
 
@@ -97,7 +97,7 @@ To create visually appealing representations of weather data, it is necessary to
 
 <br>
 
-## STAGE 4: Send Sensor Data to Database
+## STAGE 4: Send Sensor Data to MySQL Database
 
 The ESP8266 device utilizes HTTP POST requests to transmit temperature and humidity data from the DHT11 sensor to a Django web server. The Django server has a designated URL that accepts and parses these POST requests, subsequently storing the received data into a connected MySQL database.
 
