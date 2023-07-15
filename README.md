@@ -80,9 +80,11 @@ The ESP8266 device transmits temperature and humidity data from the DHT11 sensor
 
 To create visually appealing representations of weather data, it is necessary to develop HTML templates that effectively display temperature and humidity trends in a user-friendly manner. Django, a web framework, offers a robust templating engine that facilitates the creation of reusable HTML templates featuring dynamic content. These templates can incorporate Python code to generate weather data and pass it to the HTML for presentation. By leveraging Django's built-in support for forms and models, interactive dashboards and panels can be developed, enabling users to filter and manipulate the weather data as desired.
 
+[Demo video for Stage 3](https://youtu.be/ZwxG8IxD1Hw)
+
+
 ![](dashboard.png)
 
-[Demo video for Stage 3](https://youtu.be/ZwxG8IxD1Hw)
 <br>
 
 ## STAGE 4: Send Sensor Data to Database
@@ -95,6 +97,9 @@ Next, the code constructs an SQL INSERT statement using the retrieved temperatur
 
 To utilize this PHP file for receiving data from an ESP8266 device via the HTTP protocol, the ESP8266 needs to send an HTTP POST request to the URL of this PHP file. The request should include the temperature and humidity values as key-value pairs within the request body. The ESP8266 can utilize the HTTPClient library to make the HTTP request and include the temperature and humidity values in the request body. Upon receiving the data, the PHP file inserts it into the MySQL database. Consequently, the Django web application dynamically updates the user interface by retrieving the necessary data from the database and processing it within the application to be presented in the server.
 
+[Demo video for Stage 4](https://youtu.be/YAVZvHQAA3Q)
+
+
 ![](database.png)
 
 <br>
@@ -106,6 +111,8 @@ Grafana is an exceptional data visualization tool known for its robust features 
 One of the key advantages of Grafana is its flexibility and intuitiveness. It allows users to easily configure and customize visualizations to meet their specific requirements. With Grafana, you have the freedom to tailor the dashboards and graphs according to your unique needs and preferences. This flexibility makes it an invaluable tool for individuals and organizations alike, as it enables effective data analysis and presentation in a visually compelling and easily comprehensible manner.
 
 In summary, Grafana stands out as a powerful and user-friendly data visualization tool that simplifies the process of analyzing and monitoring data. Its customizable and interactive nature empowers users to create visually captivating dashboards and graphs, facilitating valuable insights and informed decision-making. By utilizing Grafana, individuals and organizations can effectively analyze and present data in a visually appealing and easily understandable format, enhancing their overall data visualization capabilities.
+
+[Demo video for Stage 5](https://youtu.be/BCQT7rBs-K0)
 
 ![](grafana.png)
 
