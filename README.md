@@ -11,9 +11,9 @@ Members:
 
 ## Table of Contents
 
- 1. [STAGE 1: Foundations](#stage-1-foundations)
+1. [STAGE 1: Foundations](#stage-1-foundations)
 
- 2. [STAGE 2: Proposal](#stage-2-proposal)
+2. [STAGE 2: Proposal](#stage-2-proposal)
 
 + [1.0 Problem Statement](#10-problem-statement)
 + [2.0 System Architecture](#20-system-architecture)
@@ -21,13 +21,13 @@ Members:
 + [4.0 Cloud Platform](#40-cloud-platform)
 + [5.0 Dashboard](#50-dashboard)
 
- 3. [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-to-server)
+3. [STAGE 3: Send Realtime Data to Server](#stage-3-send-realtime-data-to-server)
 
- 4. [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
+4. [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
 
- 5. [STAGE 5: Update Live Data in Grafana Dashboard](#stage-5-update-live-data-in-grafana-dashboard)
+5. [STAGE 5: Update Live Data in Grafana Dashboard](#stage-5-update-live-data-in-grafana-dashboard)
 
- 6. [CONCLUSION](#conclusion)
+6. [CONCLUSION](#conclusion)
  
 <br>
 
