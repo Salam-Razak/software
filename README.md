@@ -24,6 +24,8 @@ Members:
  [STAGE 4: Send Sensor Data to Database](#stage-4-send-sensor-data-to-database)
 
  [STAGE 5: Update Live Data in Grafana Dashboard](#stage-5-update-live-data-in-grafana-dashboard)
+
+ [CONCLUSION](#conclusion)
  
 <br>
 
@@ -37,7 +39,7 @@ The current weather reporting systems are either limited in their coverage or pr
 
 ## 2.0 System Architecture
 
-In order to overcome these issues, we develop a weather reporting system using IoT. This system uses two types of sensors which are DHT11 sensor for temperature and humidity and rain drop sensor where it will send the data to the dashboard for the user to get the current reading.
+In order to overcome these issues, we develop a weather reporting system using IoT. This system use a sensor which is DHT11 sensor for temperature and humidity where it will send the data to the dashboard for the user to get the current reading.
 
 ![](SYSTEM.jpeg)
 
@@ -49,12 +51,11 @@ Figure 2.1: System Architecture
 
 Sensors and devices used in this project:
 - NodeMCU ESP8266
-- DHT11 
-- Rain Drop sensor
+- DHT11 sensor
 
-Proposed data transmission protocol: HTTP
+Proposed data transmission protocol: **HTTP**
 
-![](sensors.png)
+![](sensor.jpg)
 
 Figure 3.1: Wiring connections
 
@@ -62,7 +63,7 @@ Figure 3.1: Wiring connections
 
 ## 4.0 Cloud Platform
 
-Link to How to deploy Flask app to PythonAnywhere [here](https://youtu.be/yZY-izd_qI4).
+Link to How to deploy Django app to PythonAnywhere [here](https://youtu.be/yZY-izd_qI4).
 
 <br>
 
@@ -82,7 +83,6 @@ To create visually appealing representations of weather data, it is necessary to
 
 [Demo video for Stage 3](https://youtu.be/ZwxG8IxD1Hw)
 
-
 ![](dashboard.png)
 
 <br>
@@ -98,7 +98,6 @@ Next, the code constructs an SQL INSERT statement using the retrieved temperatur
 To utilize this PHP file for receiving data from an ESP8266 device via the HTTP protocol, the ESP8266 needs to send an HTTP POST request to the URL of this PHP file. The request should include the temperature and humidity values as key-value pairs within the request body. The ESP8266 can utilize the HTTPClient library to make the HTTP request and include the temperature and humidity values in the request body. Upon receiving the data, the PHP file inserts it into the MySQL database. Consequently, the Django web application dynamically updates the user interface by retrieving the necessary data from the database and processing it within the application to be presented in the server.
 
 [Demo video for Stage 4](https://youtu.be/YAVZvHQAA3Q)
-
 
 ![](database.png)
 
@@ -117,3 +116,13 @@ In summary, Grafana stands out as a powerful and user-friendly data visualizatio
 ![](grafana.png)
 
 <br>
+
+## CONCLUSION
+
+The IoT Monitoring Weather system is a comprehensive solution that combines the DHT11 sensor, ESP8266 microcontroller, Django, XAMPP and Grafana to monitor and analyze weather data. This integrated system enables real-time data collection, storage, visualization, and remote access. The DHT11 sensor plays a crucial role in accurately measuring temperature and humidity, providing up-to-date weather data for analysis and decision-making. When connected to the ESP8266 microcontroller, it becomes a reliable source of weather information. This system utilizes XAMPP, which includes Apache and MySQL, as a local server solution for efficient data storage and management. This ensures a smooth flow of data from the ESP8266 microcontroller to the Django server.
+
+Grafana is utilized in this system to visualize and analyze weather data in a visually appealing and insightful manner. Through customizable dashboards and graphs, users can easily monitor and receive notifications about temperature and humidity trends. This feature is particularly useful in monitoring weather conditions. By integrating PyhtonAnywhere, it will enables cloud publishing, allowing weather data to be accessed from any device with an internet connection. Secure tunnels are created, granting remote access to the local XAMPP server and facilitating real-time monitoring of weather conditions.
+
+This system is designed for scalability and flexibility. The ESP8266 microcontroller can accommodate additional sensors for measuring various weather parameters such as pressure, wind speed, or rainfall. This expandability seamlessly integrates the additional data into the existing system architecture, ensuring its storage in the XAMPP server and visualization through Grafana.
+
+In summary, the IoT Monitoring Weather system, with its combination of DHT11, ESP8266 microcontroller, Django, XAMPP and Grafana provides a comprehensive solution for monitoring and analyzing weather data. This system offers real-time data collection, storage, visualization, and remote accessibility. Additionally, it provides valuable insights into weather patterns for various applications.
